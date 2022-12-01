@@ -1,0 +1,9 @@
+<form  #f="ngForm">
+Name <input type="text" name="name" ngModel required #name="ngModel">
+<app-errors [errors]="name"></app-errors>
+Price <input type="text" name="price" ngModel pattern="[0-9]*" #price="ngModel">
+<app-errors [errors]="price"></app-errors>
+Description <input type="text" name="description" ngModel minlength="10" #description="ngModel">
+<app-errors [errors]="description"></app-errors>
+<input type="submit" value="Add product"  [disabled]="f.invalid" (click)="addP(f.value)"> 
+</form>

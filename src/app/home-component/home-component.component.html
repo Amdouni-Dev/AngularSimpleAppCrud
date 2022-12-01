@@ -1,0 +1,9 @@
+<div *ngFor="let p of Products">
+    {{p.name}}
+    {{p.price}}
+    {{p.description}}
+    <input type="submit" value="Buy" (click)="addPToC(p)">
+    <a [routerLink]="['/detailP/',p.id]"> 
+        details
+    </a>
+</div>

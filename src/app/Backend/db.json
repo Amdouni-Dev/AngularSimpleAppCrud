@@ -1,0 +1,30 @@
+{
+  "products": [
+    {
+      "name": "Produit1",
+      "price": "450",
+      "description": "produit123",
+      "id": 1
+    },
+    {
+      "name": "Produit2",
+      "price": "50",
+      "description": "desssssscr",
+      "id": 2
+    }
+  ],
+  "carts": [
+    {
+      "name": "Produit1",
+      "price": "450",
+      "description": "produit123",
+      "id": 1
+    },
+    {
+      "name": "Produit2",
+      "price": "50",
+      "description": "desssssscr",
+      "id": 2
+    }
+  ]
+}
